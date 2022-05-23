@@ -1,21 +1,64 @@
 /* CSS File */
 
-.container {
+
+.paragraph{
+  position: absolute;
+  width: 700px;
+  font-size: 100px;
+  color: #E15D44;
+  margin-left: 180%;
 
 }
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
 .boxes {
+  overflow: hidden;
+}
+
+
+body {
+  margin: 0;
 }
 
 .first_image{
-  background-image: url("https://i.postimg.cc/nL0zY04d/ruben-ramirez-xh-KG01-FN2uk-unsplash.jpg");
+  background-image: url("https://i.postimg.cc/W14hXLcF/joe-gardner-86-T4-Opoh-LTI-unsplash.jpg");
   position: relative;
-  height: 500px;
-  /* Center and scale the image nicely */
+  height: 1200px;
   background-position: center;
-  /* Needed to position the navbar */
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.self_image {
+ 
+  position: absolute;
+  border-radius: 30%;
+  margin-left: 400%;
  
 }
 
+.second_image {
+  
+  background-image: url("https://i.postimg.cc/nL0zY04d/ruben-ramirez-xh-KG01-FN2uk-unsplash.jpg");
+  position: relative;
+  height: 1200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.third_image {
+  background-image: url("https://i.postimg.cc/zBPJ9qFm/annie-spratt-wgivdx9d-Bd-Q-unsplash.jpg");
+  position: relative;
+  height: 1200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .box1,
 .box2,
