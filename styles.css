@@ -1,0 +1,65 @@
+/* CSS File */
+
+.container {
+
+}
+.boxes {
+}
+
+.first_image{
+  background-image: url("https://i.postimg.cc/nL0zY04d/ruben-ramirez-xh-KG01-FN2uk-unsplash.jpg");
+  position: relative;
+  height: 500px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  /* Needed to position the navbar */
+ 
+}
+
+
+.box1,
+.box2,
+.box3,
+.box4{
+  margin-right: 280px;
+  width: 10px;
+  height: 50px;
+  text-align: center;
+  padding: 2rem;
+  text-decoration: none;
+ 
+}
+
+
+
+.list-item {
+    text-decoration: none;
+    color: #E15D44 ;
+    font-size: 3em;
+    font-weight: 900;
+  
+  }
+
+
+  .box1:hover a,
+.box1:hover {
+  color: white;
+ 
+}
+.box2:hover a,
+.box2:hover {
+  color: white;
+
+}
+
+.box3:hover a,
+.box3:hover {
+  color: white;
+
+}
+
+.box4:hover a,
+.box4:hover {
+  color: white;
+
+}
