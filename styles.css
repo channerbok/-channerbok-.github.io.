@@ -1,24 +1,41 @@
 /* CSS File */
 
-
-.paragraph{
-  position: absolute;
-  width: 700px;
-  font-size: 100px;
-  color: white ;
-  margin-left: 160%;
-
+@font-face {
+  font-family: "Bitstream Vera Serif Bold";
+  src: url("https://mdn.mozillademos.org/files/2468/VeraSeBd.ttf");
 }
 
-.paragraph_two{
-  position: absolute;
-  width: 700px;
-  font-size: 40px;
-  color: white ;
-  margin-left: 155%;
-  margin-top: 30%;
-
+.all{
+  background-color:black;
 }
+
+.paragraph {
+  position: absolute;
+  width: 1300px;
+  font-size: 150px;
+  color: #1e90ff;
+  margin-left: 140%;
+  margin-top: 50%;
+  font-family: 'Audiowide', cursive;
+}
+.paragraph:hover a,
+.paragraph:hover {
+  color: white;
+}
+.paragraph_two {
+  position: absolute;
+  width: 1300px;
+  font-size: 75px;
+  color: #1e90ff;
+  margin-left: 150%;
+  margin-top: -30%;
+  font-family: 'Audiowide', cursive;
+}
+.paragraph_two:hover a,
+.paragraph_two:hover {
+  color: white;
+}
+
 .container {
   position: absolute;
   margin: 20px;
@@ -27,10 +44,8 @@
 
 .text_box {
   position: absolute;
-  
   top: 260px;
   left: 600px;
-
   color: black;
 }
 .boxes {
@@ -38,41 +53,50 @@
 }
 
 
-body {
-  margin: 0;
-}
 
-.first_image{
-  background-image: url("https://i.postimg.cc/W14hXLcF/joe-gardner-86-T4-Opoh-LTI-unsplash.jpg");
+.first_image {
+  background-image: url("https://i.postimg.cc/zBPJ9qFm/annie-spratt-wgivdx9d-Bd-Q-unsplash.jpg");
   position: relative;
   height: 1200px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
 .self_image {
- 
   position: absolute;
-  border: 10px solid;
-  margin-left: 400%;
-  
- 
+  border: 5px solid #cec8ef;
+  margin-left: 460%;
+  margin-top: 400%;
+  border-radius: 20%;
+}
+.self_image:hover a,
+.self_image:hover {
+  border: 5px solid #4b0082;
 }
 
 .intro {
- 
   position: absolute;
-
   margin-left: 120%;
-  margin-top: 100%;
+  margin-top: 400%;
   border-radius: 10%;
- 
+  border: 5px solid #cec8ef;
+}
+
+
+.info{
+  border: 5px solid #cec8ef;
+}
+
+
+
+
+.intro:hover a,
+.intro:hover {
+  border: 5px solid #4b0082;
 }
 
 .second_image {
-  
   background-image: url("https://i.postimg.cc/nL0zY04d/ruben-ramirez-xh-KG01-FN2uk-unsplash.jpg");
   position: relative;
   height: 1200px;
@@ -93,46 +117,39 @@ body {
 .box1,
 .box2,
 .box3,
-.box4{
+.box4 {
   margin-right: 280px;
   width: 10px;
   height: 50px;
   text-align: center;
   padding: 2rem;
   text-decoration: none;
- 
 }
 
-
-
 .list-item {
-    text-decoration: none;
-    color: #E15D44;
-    font-size: 3em;
-    font-weight: 900;
-  
-  }
+  text-decoration: none;
+  font-family: 'Monoton', cursive;
+  font-size: 2em;
+  font-weight: 900;
+  color: #1e90ff;
+}
 
-
-  .box1:hover a,
+.box1:hover a,
 .box1:hover {
-  color: white;
- 
+ color: white;
+  
 }
 .box2:hover a,
 .box2:hover {
   color: white;
-
 }
 
 .box3:hover a,
 .box3:hover {
   color: white;
-
 }
 
 .box4:hover a,
 .box4:hover {
   color: white;
-
 }
