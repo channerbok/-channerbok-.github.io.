@@ -5,8 +5,8 @@
   src: url("https://mdn.mozillademos.org/files/2468/VeraSeBd.ttf");
 }
 
-.all{
-  background-color:black;
+.all {
+  background-color: black;
 }
 
 .paragraph {
@@ -16,7 +16,7 @@
   color: #1e90ff;
   margin-left: 140%;
   margin-top: 50%;
-  font-family: 'Audiowide', cursive;
+  font-family: "Audiowide", cursive;
 }
 .paragraph:hover a,
 .paragraph:hover {
@@ -29,11 +29,43 @@
   color: #1e90ff;
   margin-left: 150%;
   margin-top: -30%;
-  font-family: 'Audiowide', cursive;
+  font-family: "Audiowide", cursive;
 }
 .paragraph_two:hover a,
 .paragraph_two:hover {
   color: white;
+}
+
+.para2 {
+  position: absolute;
+  font-size: 75px;
+  margin-top: -240%;
+  color: #1e90ff;
+  font-family: "Audiowide", cursive;
+}
+
+.para3 {
+  position: absolute;
+  font-size: 75px;
+  margin-top: -115%;
+  color: #1e90ff;
+  font-family: "Audiowide", cursive;
+}
+
+.para4 {
+  position: absolute;
+  font-size: 75px;
+  margin-top: -50%;
+  color: #1e90ff;
+  font-family: "Audiowide", cursive;
+}
+
+.para1 {
+  position: absolute;
+  font-size: 75px;
+  margin-top: -183%;
+  color: #1e90ff;
+  font-family: "Audiowide", cursive;
 }
 
 .container {
@@ -52,8 +84,6 @@
   overflow: hidden;
 }
 
-
-
 .first_image {
   background-image: url("https://i.postimg.cc/zBPJ9qFm/annie-spratt-wgivdx9d-Bd-Q-unsplash.jpg");
   position: relative;
@@ -65,14 +95,14 @@
 
 .self_image {
   position: absolute;
-  border: 5px solid #cec8ef;
+  border: 5px solid #1e90ff;
   margin-left: 460%;
   margin-top: 400%;
   border-radius: 20%;
 }
 .self_image:hover a,
 .self_image:hover {
-  border: 5px solid #4b0082;
+  border: 5px solid #cec8ef;
 }
 
 .intro {
@@ -80,20 +110,16 @@
   margin-left: 120%;
   margin-top: 400%;
   border-radius: 10%;
-  border: 5px solid #cec8ef;
+  border: 5px solid #1e90ff;
 }
 
-
-.info{
+.info {
   border: 5px solid #cec8ef;
 }
-
-
-
 
 .intro:hover a,
 .intro:hover {
-  border: 5px solid #4b0082;
+  border: 5px solid #cec8ef;
 }
 
 .second_image {
@@ -128,7 +154,7 @@
 
 .list-item {
   text-decoration: none;
-  font-family: 'Monoton', cursive;
+  font-family: "Monoton", cursive;
   font-size: 2em;
   font-weight: 900;
   color: #1e90ff;
@@ -136,8 +162,7 @@
 
 .box1:hover a,
 .box1:hover {
- color: white;
-  
+  color: white;
 }
 .box2:hover a,
 .box2:hover {
