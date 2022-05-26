@@ -1,14 +1,14 @@
 // JS File  color: #E15D44 ;
 let main = document.querySelector('main');
 let image = document.createElement('img')
-image.src = '/pic4.jpg';
+image.src = 'pic4.jpg';
 main.append(image);
 image.style.width = '100%'
 image.style.height = '110%'
 image.id = "about";
 
 let image2 = document.createElement('img')
-image2.src = '/pic2.jpg';
+image2.src = 'pic2.jpg';
 main.append(image2);
 image2.style.width = '100%'
 image2.style.height = '110%'
@@ -17,7 +17,7 @@ image.className = "Experience";
 
 
 let image4 = document.createElement('img')
-image4.src = '/pic5.jpg';
+image4.src = 'pic5.jpg';
 main.append(image4);
 image4.style.width = '100%'
 image4.style.height = '110%'
@@ -26,7 +26,7 @@ image.className = "Projects";
 
 
 let image3 = document.createElement('img')
-image3.src = '/pic3.jpg';
+image3.src = 'pic3.jpg';
 main.append(image3);
 image3.style.width = '100%'
 image3.style.height = '110%'
