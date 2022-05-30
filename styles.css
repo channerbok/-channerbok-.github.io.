@@ -178,3 +178,49 @@
 .box4:hover {
   color: white;
 }
+
+
+.holder{
+  width: 400px;
+  border: 1px solid #1e90ff;
+  margin-top: 900%;
+  background-color: white;
+  font-family: "Audiowide", cursive;
+}
+
+.holder2{
+  width: 400px;
+  border: 1px solid #1e90ff ;
+  background-color: white;
+  font-family: "Audiowide", cursive;
+}
+
+.holder3{
+  width: 400px;
+  border: 1px solid#1e90ff;
+  background-color: white;
+  font-family: "Audiowide", cursive;
+}
+
+.format {
+  width: 90%;
+  height: 90%;
+  margin-left: 5%;
+}
+
+.btn {
+  width: 90%;
+  height: 40px;
+  background-color: navy;
+  color: white;
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+
+.btn:hover {
+  background-color: orange;
+}
+
+h1::first-line {
+  color: #1e90ff;
+}
