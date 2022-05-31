@@ -5,6 +5,7 @@ image.src = 'pic4.jpg';
 main.append(image);
 image.style.width = '100%'
 image.style.height = '110%'
+image.style.marginTop = "-50px";
 image.id = "about";
 
 let image2 = document.createElement('img')
@@ -12,6 +13,7 @@ image2.src = 'pic2.jpg';
 main.append(image2);
 image2.style.width = '100%'
 image2.style.height = '110%'
+image2.style.marginTop = "-50px";
 image2.id = "Experience";
 image.className = "Experience";
 
@@ -21,6 +23,7 @@ image4.src = 'pic5.jpg';
 main.append(image4);
 image4.style.width = '100%'
 image4.style.height = '110%'
+image4.style.marginTop = "-50px";
 image4.id = "Projects";
 image.className = "Projects";
 
@@ -59,3 +62,6 @@ para4.textContent = 'Contact me';
 para4.style.textAlign = "center";
 para4.className = "para4"
 main.append(para4);
+
+
+

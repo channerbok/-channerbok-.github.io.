@@ -5,6 +5,14 @@
   src: url("https://mdn.mozillademos.org/files/2468/VeraSeBd.ttf");
 }
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width:100%;
+  overflow-x:hidden;
+}
+
 .all {
   background-color: black;
 }
@@ -39,7 +47,7 @@
 .para2 {
   position: absolute;
   font-size: 75px;
-  margin-top: -240%;
+  margin-top: -234%;
   color: #1e90ff;
   font-family: "Audiowide", cursive;
 }
@@ -63,7 +71,7 @@
 .para1 {
   position: absolute;
   font-size: 75px;
-  margin-top: -183%;
+  margin-top: -180%;
   color: #1e90ff;
   font-family: "Audiowide", cursive;
 }
@@ -91,7 +99,6 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
 .self_image {
@@ -181,16 +188,14 @@
   color: white;
 }
 
-
-.holder{
+.holder {
   width: 800px;
   height: 300px;
   border: 5px solid #1e90ff;
-  margin-top: 70%;
+  margin-top: 55%;
   background-color: white;
   font-family: "Audiowide", cursive;
   border-radius: 15%;
-
 }
 
 .holder:hover a,
@@ -206,17 +211,16 @@
   border: 1px solid white;
 }
 
-.holder2{
+.holder2 {
   width: 800px;
   height: 300px;
-  border: 5px solid #1e90ff ;
+  border: 5px solid #1e90ff;
   background-color: white;
   font-family: "Audiowide", cursive;
   border-radius: 15%;
- 
 }
 
-.holder3{
+.holder3 {
   width: 800px;
   height: 300px;
   border: 5px solid#1e90ff;
@@ -225,17 +229,37 @@
   border-radius: 15%;
 }
 
-.resume{
+.resume {
   width: 850px;
   height: 700px;
   margin-top: 230%;
   border: 3px solid#1e90ff;
   background-color: white;
-  font-family: 'Libre Baskerville', serif;
+  font-family: "Libre Baskerville", serif;
   font-size: 1.5em;
+  border-radius: 10%;
 }
+
+
+.resume1 {
+  width: 850px;
+  height: 700px;
+  margin-top: -82.5%;
+  margin-left: 900px;
+  border: 3px solid#1e90ff;
+  background-color: white;
+  font-family: "Libre Baskerville", serif;
+  font-size: 1.5em;
+  border-radius: 10%;
+}
+
 .resume:hover a,
 .resume:hover {
+  border: 1px solid white;
+}
+
+.resume1:hover a,
+.resume1:hover {
   border: 1px solid white;
 }
 
@@ -244,21 +268,25 @@
   color: #1e90ff;
   font-size: 1.2em;
 }
-
-.format0.5 {
-  
-}
-
 .format1 {
-  
+  color: #1e90ff;
+  font-size: .5em;
 }
 .format2 {
-  
-}
-.format3 {
-  
+  color: #1e90ff;
+  font-size: 1em;
 }
 
+.format3 {
+  color: black;
+  font-family: "Libre Baskerville", serif;
+  font-size: .7em;
+}
+
+
+
+.format3 {
+}
 
 .btn {
   width: 100px;
@@ -267,7 +295,7 @@
   color: white;
   margin-left: 15px;
   font-family: "Audiowide", cursive;
-  font-size: .8em;
+  font-size: 0.8em;
   border-radius: 50%;
 }
 
@@ -285,7 +313,7 @@
   color: white;
   margin-left: 15px;
   font-family: "Audiowide", cursive;
-  font-size: .8em;
+  font-size: 0.8em;
   border-radius: 50%;
 }
 
@@ -295,7 +323,6 @@
   background-color: white;
   border: 1px solid#1e90ff;
 }
-
 
 h1::first-line {
   color: #1e90ff;
