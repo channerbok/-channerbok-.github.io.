@@ -14,7 +14,7 @@
   width: 1300px;
   font-size: 150px;
   color: #1e90ff;
-  margin-left: 140%;
+  margin-left: 70%;
   margin-top: 50%;
   font-family: "Audiowide", cursive;
 }
@@ -27,7 +27,7 @@
   width: 1300px;
   font-size: 75px;
   color: #1e90ff;
-  margin-left: 150%;
+  margin-left: 70%;
   margin-top: -30%;
   font-family: "Audiowide", cursive;
 }
@@ -91,15 +91,17 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 
 .self_image {
   position: absolute;
   border: 5px solid #1e90ff;
-  margin-left: 460%;
-  margin-top: 400%;
+  margin-left: 160%;
+  margin-top: 170%;
   border-radius: 20%;
 }
+
 .self_image:hover a,
 .self_image:hover {
   border: 5px solid #cec8ef;
@@ -107,8 +109,8 @@
 
 .intro {
   position: absolute;
-  margin-left: 120%;
-  margin-top: 400%;
+  margin-left: 10%;
+  margin-top: 170%;
   border-radius: 10%;
   border: 5px solid #1e90ff;
 }
@@ -181,45 +183,119 @@
 
 
 .holder{
-  width: 400px;
-  border: 1px solid #1e90ff;
-  margin-top: 900%;
+  width: 800px;
+  height: 300px;
+  border: 5px solid #1e90ff;
+  margin-top: 70%;
   background-color: white;
   font-family: "Audiowide", cursive;
+  border-radius: 15%;
+
+}
+
+.holder:hover a,
+.holder:hover {
+  border: 1px solid white;
+}
+.holder2:hover a,
+.holder2:hover {
+  border: 1px solid white;
+}
+.holder3:hover a,
+.holder3:hover {
+  border: 1px solid white;
 }
 
 .holder2{
-  width: 400px;
-  border: 1px solid #1e90ff ;
+  width: 800px;
+  height: 300px;
+  border: 5px solid #1e90ff ;
   background-color: white;
   font-family: "Audiowide", cursive;
+  border-radius: 15%;
+ 
 }
 
 .holder3{
-  width: 400px;
-  border: 1px solid#1e90ff;
+  width: 800px;
+  height: 300px;
+  border: 5px solid#1e90ff;
   background-color: white;
   font-family: "Audiowide", cursive;
+  border-radius: 15%;
 }
 
-.format {
-  width: 90%;
-  height: 90%;
-  margin-left: 5%;
+.resume{
+  width: 850px;
+  height: 700px;
+  margin-top: 230%;
+  border: 3px solid#1e90ff;
+  background-color: white;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.5em;
 }
+.resume:hover a,
+.resume:hover {
+  border: 1px solid white;
+}
+
+
+.format0 {
+  color: #1e90ff;
+  font-size: 1.2em;
+}
+
+.format0.5 {
+  
+}
+
+.format1 {
+  
+}
+.format2 {
+  
+}
+.format3 {
+  
+}
+
 
 .btn {
-  width: 90%;
-  height: 40px;
-  background-color: navy;
+  width: 100px;
+  height: 45px;
+  background-color: #1e90ff;
   color: white;
-  margin-bottom: 10px;
   margin-left: 15px;
+  font-family: "Audiowide", cursive;
+  font-size: .8em;
+  border-radius: 50%;
 }
 
+.btn:hover a,
 .btn:hover {
-  background-color: orange;
+  color: #1e90ff;
+  background-color: white;
+  border: 1px solid#1e90ff;
 }
+
+.btn-two {
+  width: 150px;
+  height: 75px;
+  background-color: #1e90ff;
+  color: white;
+  margin-left: 15px;
+  font-family: "Audiowide", cursive;
+  font-size: .8em;
+  border-radius: 50%;
+}
+
+.btn-two:hover a,
+.btn-two:hover {
+  color: #1e90ff;
+  background-color: white;
+  border: 1px solid#1e90ff;
+}
+
 
 h1::first-line {
   color: #1e90ff;
