@@ -7,6 +7,10 @@ image.style.width = '100%'
 image.style.height = '110%'
 image.style.marginTop = "-50px";
 image.id = "about";
+image.style.backgroundSize = "contain"
+
+
+
 
 let image2 = document.createElement('img')
 image2.src = 'pic2.jpg';
@@ -15,7 +19,8 @@ image2.style.width = '100%'
 image2.style.height = '110%'
 image2.style.marginTop = "-50px";
 image2.id = "Experience";
-image.className = "Experience";
+image2.className = "Experience";
+image2.style.backgroundSize = "contain"
 
 
 let image4 = document.createElement('img')
@@ -26,6 +31,7 @@ image4.style.height = '110%'
 image4.style.marginTop = "-50px";
 image4.id = "Projects";
 image.className = "Projects";
+image4.style.backgroundSize = "contain"
 
 
 let image3 = document.createElement('img')
@@ -37,6 +43,7 @@ image3.id = "Contact";
 image3.className = "Contact";
 image3.style.marginTop = '-50px';
 image3.style.marginRight = '50px';
+image3.style.backgroundSize = "contain"
 
 
 let para2 = document.createElement('p');
@@ -63,5 +70,12 @@ para4.style.textAlign = "center";
 para4.className = "para4"
 main.append(para4);
 
+let para5 = document.createElement('p');
+para5.textContent = 'Please direct all contact to my email at channerbok@gmail.com';
+para5.style.textAlign = "center";
+para5.className = "para5"
+para5.style.backgroundColor = 'white'
+para5.style.borderRadius = '20%'
+main.append(para5);
 
 
