@@ -22,7 +22,7 @@ body {
   width: 1300px;
   font-size: 150px;
   color: #1e90ff;
-  margin-left: 70%;
+  margin-left: 40%;
   margin-top: 50%;
   font-family: "Audiowide", cursive;
 }
@@ -35,7 +35,7 @@ body {
   width: 1300px;
   font-size: 75px;
   color: #1e90ff;
-  margin-left: 70%;
+  margin-left: 40%;
   margin-top: -30%;
   font-family: "Audiowide", cursive;
 }
@@ -104,8 +104,8 @@ body {
 .self_image {
   position: absolute;
   border: 5px solid #1e90ff;
-  margin-left: 160%;
-  margin-top: 170%;
+  margin-left: 130%;
+  margin-top: 160%;
   border-radius: 20%;
 }
 
@@ -188,11 +188,31 @@ body {
   color: white;
 }
 
+
+.holder4 {
+  width: 800px;
+  height: 450px;
+  margin-top: -205%;
+  background-color: #1e90ff;
+  font-family: "Audiowide", cursive;
+  border-radius: 20%;
+  
+ 
+}
+
+.format9 {
+  font-family: "Audiowide", cursive;
+  padding-left: 2%;
+  color: white;
+  font-size: 1.7em;
+  margin-top: 10%;
+}
+
 .holder {
   width: 800px;
-  height: 300px;
+  height: 250px;
   border: 5px solid #1e90ff;
-  margin-top: 55%;
+  margin-top: 230%;
   background-color: white;
   font-family: "Audiowide", cursive;
   border-radius: 15%;
@@ -213,7 +233,7 @@ body {
 
 .holder2 {
   width: 800px;
-  height: 300px;
+  height: 250px;
   border: 5px solid #1e90ff;
   background-color: white;
   font-family: "Audiowide", cursive;
@@ -222,7 +242,7 @@ body {
 
 .holder3 {
   width: 800px;
-  height: 300px;
+  height: 250px;
   border: 5px solid#1e90ff;
   background-color: white;
   font-family: "Audiowide", cursive;
@@ -244,7 +264,7 @@ body {
 .resume1 {
   width: 850px;
   height: 700px;
-  margin-top: -82.5%;
+  margin-top: -80.5%;
   margin-left: 900px;
   border: 3px solid#1e90ff;
   background-color: white;
@@ -267,26 +287,55 @@ body {
 .format0 {
   color: #1e90ff;
   font-size: 1.2em;
+  margin-left: 3%;
 }
+
+.format5 {
+  color: #1e90ff;
+  font-size: .8em;
+  margin-left: 3%;
+}
+
+.format4 {
+  color: #1e90ff;
+  font-size: .8em;
+  margin-left: 3%;
+}
+
+.format0-5 {
+
+  font-size: .9em;
+  margin-left: 3%;
+}
+
 .format1 {
   color: #1e90ff;
-  font-size: .5em;
+  font-size: .7em;
 }
 .format2 {
   color: #1e90ff;
-  font-size: 1em;
+  font-size: 1.2em;
+  margin-left: 3%;
 }
 
 .format3 {
   color: black;
   font-family: "Libre Baskerville", serif;
-  font-size: .7em;
+  font-size: .6em;
+  margin-left: 3%;
 }
 
 
-
-.format3 {
+.format7 {
+  margin-left: 30%;
 }
+
+
+.format8 {
+  font-family: "Libre Baskerville", serif;
+  padding-left: 5%;
+}
+
 
 .btn {
   width: 100px;
