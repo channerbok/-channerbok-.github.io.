@@ -411,6 +411,96 @@ h1::first-line {
 }
 
 
+
+.form {
+  border: 1px solid #1e90ff;
+  margin-left: 1%;
+  position: absolute;
+  margin-top: 50%;
+  margin-left: 50%;
+  background-color: white;
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  font-family: "Audiowide", cursive;
+}
+
+.form:hover a,
+.form:hover{
+  border: 1px solid white;
+}
+
+.input-title1 {
+  font-size: 2.5em;
+  width: 80%;
+  margin-left:  10%;
+  color: #1e90ff;
+}
+.input-title2 {
+  font-size: 2.5em;
+  width: 80%;
+  margin-top: 5%;
+  margin-left:  10%;
+  color: #1e90ff;
+}
+
+.form-element {
+  display: inline-block;
+  height: 30px;
+  width: 250px;
+  margin-left: 12%;
+  border: 2px solid#1e90ff;
+}
+
+.form-element3 {
+  display: inline-block;
+  height: 30px;
+  width: 250px;
+  margin-left: 10%;
+  border: 2px solid#1e90ff;
+}
+
+.form-element2 {
+  display: inline-block;
+  height: 30px;
+  width: 250px;
+  border: 2px solid#1e90ff;
+}
+
+.form-element1 {
+  display: inline-block;
+  margin-left: 13%;
+  height: 30px;
+  width: 250px;
+  border: 2px solid#1e90ff;
+  
+}
+
+
+.header_form {
+  font-size: 2.5em;
+  margin-left: 25%;
+}
+
+
+.btn-secondary {
+  width: 200px;
+  height: 50px;
+  font-size: 1.3em;
+  margin-top:  5%;
+  margin-left: 35%;
+  color: white;
+  border: 1px solid #1e90ff;
+  background-color:#1e90ff;
+}
+
+.btn-secondary:hover {
+  background-color: gray;
+}
+
+
+
+
 @media (max-width: 966px) {
 
   html,

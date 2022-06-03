@@ -71,7 +71,7 @@ para4.className = "para4"
 main.append(para4);
 
 let para5 = document.createElement('p');
-para5.textContent = 'Please direct all contact to my email at channerbok@gmail.com';
+para5.textContent = '';
 para5.style.textAlign = "center";
 para5.className = "para5"
 para5.style.backgroundColor = 'white'
