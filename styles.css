@@ -5,19 +5,25 @@
   src: url("https://mdn.mozillademos.org/files/2468/VeraSeBd.ttf");
 }
 
-html,
-body {
-  margin: 0;
-  padding: 0;
-  width:100%;
-  overflow-x:hidden;
-}
-
 .all {
   background-color: black;
 }
 
-.paragraph {
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+h1::first-line {
+  color: #1e90ff;
+}
+
+/* Formats name and info on first page*/
+.name_title {
   position: absolute;
   width: 1300px;
   font-size: 150px;
@@ -28,12 +34,12 @@ body {
   background-color: white;
   border-radius: 20%;
 }
-.paragraph:hover a,
-.paragraph:hover {
+.name_title:hover a,
+.name_title:hover {
   color: white;
   background-color: #1e90ff;
 }
-.paragraph_two {
+.position_title {
   position: absolute;
   width: 1300px;
   font-size: 75px;
@@ -44,45 +50,14 @@ body {
   background-color: white;
   border-radius: 20%;
 }
-.paragraph_two:hover a,
-.paragraph_two:hover {
+.position_title:hover a,
+.position_title:hover {
   color: white;
   background-color: #1e90ff;
 }
 
-.para2 {
-  position: absolute;
-  font-size: 75px;
-  margin-top: -234%;
-  color: #1e90ff;
-  font-family: "Audiowide", cursive;
-}
-
-.para3 {
-  position: absolute;
-  font-size: 75px;
-  margin-top: -115%;
-  color: #1e90ff;
-  font-family: "Audiowide", cursive;
-}
-
-.para4 {
-  position: absolute;
-  font-size: 75px;
-  margin-top: -50%;
-  color: #1e90ff;
-  font-family: "Audiowide", cursive;
-}
-
-.para5 {
-  position: absolute;
-  font-size: 75px;
-  margin-top: -40%;
-  color: #1e90ff;
-  font-family: "Audiowide", cursive;
-}
-
-.para1 {
+/*Styles JS code for title of each page*/
+.experience_body {
   position: absolute;
   font-size: 75px;
   margin-top: -180%;
@@ -90,18 +65,57 @@ body {
   font-family: "Audiowide", cursive;
 }
 
+.about_body {
+  position: absolute;
+  font-size: 75px;
+  margin-top: -230%;
+  color: #1e90ff;
+  font-family: "Audiowide", cursive;
+}
+
+
+
+.projects_body {
+  position: absolute;
+  font-size: 75px;
+  margin-top: -117%;
+  color: #1e90ff;
+  font-family: "Audiowide", cursive;
+}
+
+.contact_body {
+  position: absolute;
+  font-size: 75px;
+  margin-top: -50%;
+  color: #1e90ff;
+  font-family: "Audiowide", cursive;
+}
+
+.email_body {
+  position: absolute;
+  font-size: 40px;
+  margin-top: -40%;
+  margin-left: 2%;
+  color: #1e90ff;
+  background-color: white;
+  font-family: "Audiowide", cursive;
+}
+
+.email_body:hover a,
+.email_body:hover {
+  color: white;
+  background-color: #1e90ff;
+}
+
+
+/* Styling Container for entire program*/
 .container {
   position: absolute;
   margin: 20px;
   width: auto;
 }
 
-.text_box {
-  position: absolute;
-  top: 260px;
-  left: 600px;
-  color: black;
-}
+/* Styling for navbar*/
 .boxes {
   overflow: hidden;
 }
@@ -125,42 +139,15 @@ body {
 
 .self_image:hover a,
 .self_image:hover {
-  border: 5px solid #cec8ef;
+  border: 5px solid white;
 }
 
-.intro {
-  position: absolute;
-  margin-left: 10%;
-  margin-top: 170%;
-  border-radius: 10%;
-  border: 5px solid #1e90ff;
-}
-
-.info {
-  border: 5px solid #cec8ef;
-}
-
-.intro:hover a,
-.intro:hover {
-  border: 5px solid #cec8ef;
-}
-
-.second_image {
-  background-image: url("https://i.postimg.cc/nL0zY04d/ruben-ramirez-xh-KG01-FN2uk-unsplash.jpg");
-  position: relative;
-  height: 1200px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.third_image {
-  background-image: url("https://i.postimg.cc/zBPJ9qFm/annie-spratt-wgivdx9d-Bd-Q-unsplash.jpg");
-  position: relative;
-  height: 1200px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.item {
+  text-decoration: none;
+  font-family: "Monoton", cursive;
+  font-size: 2em;
+  font-weight: 900;
+  color: #1e90ff;
 }
 
 .box1,
@@ -173,14 +160,6 @@ body {
   text-align: center;
   padding: 2rem;
   text-decoration: none;
-}
-
-.list-item {
-  text-decoration: none;
-  font-family: "Monoton", cursive;
-  font-size: 2em;
-  font-weight: 900;
-  color: #1e90ff;
 }
 
 .box1:hover a,
@@ -202,8 +181,8 @@ body {
   color: white;
 }
 
-
-.holder4 {
+/* Introduction Styling*/
+.holder_intro {
   width: 800px;
   height: 450px;
   margin-top: -205%;
@@ -212,13 +191,13 @@ body {
   border-radius: 20%;
 }
 
-.holder4:hover a,
-.holder4:hover {
+.holder_intro:hover a,
+.holder_intro:hover {
   background-color: white;
   color: #1e90ff;
 }
 
-.format9 {
+.format_intro {
   font-family: "Audiowide", cursive;
   padding-left: 2%;
   color: white;
@@ -226,11 +205,10 @@ body {
   padding-top: 7%;
 }
 
-.format9:hover a,
-.format9:hover {
+.format_intro:hover a,
+.format_intro:hover {
   color: #1e90ff;
 }
-
 
 .format10 {
   font-family: "Audiowide", cursive;
@@ -240,135 +218,58 @@ body {
   margin-left: 18%;
 }
 
-
-.holder {
+/*Project example holder formatting for title, body, and button*/
+.holder_one {
   width: 800px;
-  height: 250px;
+  height: 320px;
   border: 5px solid #1e90ff;
-  margin-top: 210%;
+  margin-top: 198%;
   background-color: white;
   font-family: "Audiowide", cursive;
   border-radius: 15%;
 }
 
-.holder:hover a,
-.holder:hover {
-  border: 1px solid white;
-}
-.holder2:hover a,
-.holder2:hover {
-  border: 1px solid white;
-}
-.holder3:hover a,
-.holder3:hover {
+.holder_one:hover a,
+.holder_one:hover {
   border: 1px solid white;
 }
 
-.holder2 {
+.holder_two {
   width: 800px;
-  height: 250px;
+  height: 320px;
   border: 5px solid #1e90ff;
   background-color: white;
   font-family: "Audiowide", cursive;
   border-radius: 15%;
 }
 
-.holder3 {
+.holder_two:hover a,
+.holder_two:hover {
+  border: 1px solid white;
+}
+
+.format_title {
+  margin-left: 30%;
+}
+
+.format_body {
+  font-family: "Libre Baskerville", serif;
+  padding-left: 5%;
+}
+
+.holder_three {
   width: 800px;
-  height: 250px;
+  height: 360px;
   border: 5px solid#1e90ff;
   background-color: white;
   font-family: "Audiowide", cursive;
   border-radius: 15%;
 }
 
-.resume {
-  width: 850px;
-  height: 700px;
-  margin-top: 230%;
-  border: 3px solid#1e90ff;
-  background-color: white;
-  font-family: "Libre Baskerville", serif;
-  font-size: 1.5em;
-  border-radius: 10%;
-}
-
-
-.resume1 {
-  width: 850px;
-  height: 700px;
-  margin-top: -80.5%;
-  margin-left: 900px;
-  border: 3px solid#1e90ff;
-  background-color: white;
-  font-family: "Libre Baskerville", serif;
-  font-size: 1.5em;
-  border-radius: 10%;
-}
-
-.resume:hover a,
-.resume:hover {
+.holder_three:hover a,
+.holder_three:hover {
   border: 1px solid white;
 }
-
-.resume1:hover a,
-.resume1:hover {
-  border: 1px solid white;
-}
-
-
-.format0 {
-  color: #1e90ff;
-  font-size: 1.2em;
-  margin-left: 3%;
-}
-
-.format5 {
-  color: #1e90ff;
-  font-size: .8em;
-  margin-left: 3%;
-}
-
-.format4 {
-  color: #1e90ff;
-  font-size: .8em;
-  margin-left: 3%;
-}
-
-.format0-5 {
-
-  font-size: .9em;
-  margin-left: 3%;
-}
-
-.format1 {
-  color: #1e90ff;
-  font-size: .7em;
-}
-.format2 {
-  color: #1e90ff;
-  font-size: 1.2em;
-  margin-left: 3%;
-}
-
-.format3 {
-  color: black;
-  font-family: "Libre Baskerville", serif;
-  font-size: .6em;
-  margin-left: 3%;
-}
-
-
-.format7 {
-  margin-left: 30%;
-}
-
-
-.format8 {
-  font-family: "Libre Baskerville", serif;
-  padding-left: 5%;
-}
-
 
 .btn {
   width: 100px;
@@ -388,7 +289,69 @@ body {
   border: 1px solid#1e90ff;
 }
 
-.btn-two {
+/* Resume Formatting for title, body, and button*/
+.resume {
+  width: 850px;
+  height: 700px;
+  margin-top: 230%;
+  border: 3px solid#1e90ff;
+  background-color: white;
+  font-family: "Libre Baskerville", serif;
+  font-size: 1.5em;
+  border-radius: 10%;
+}
+
+.resume_two {
+  width: 850px;
+  height: 700px;
+  margin-top: -80.5%;
+  margin-left: 900px;
+  border: 3px solid#1e90ff;
+  background-color: white;
+  font-family: "Libre Baskerville", serif;
+  font-size: 1.5em;
+  border-radius: 10%;
+}
+
+.resume:hover a,
+.resume:hover {
+  border: 1px solid white;
+}
+
+.resume_two:hover a,
+.resume_two:hover {
+  border: 1px solid white;
+}
+
+.format_title_resume {
+  color: #1e90ff;
+  font-size: 1.2em;
+  margin-left: 3%;
+}
+.format_body_resume {
+  font-size: 0.9em;
+  margin-left: 3%;
+}
+
+.format_title_two {
+  color: #1e90ff;
+  font-size: 0.8em;
+  margin-left: 3%;
+}
+
+.format_header {
+  color: #1e90ff;
+  font-size: 0.8em;
+  margin-left: 3%;
+}
+.format_info {
+  color: black;
+  font-family: "Libre Baskerville", serif;
+  font-size: 0.6em;
+  margin-left: 3%;
+}
+
+.btn_linked {
   width: 150px;
   height: 75px;
   background-color: #1e90ff;
@@ -399,25 +362,20 @@ body {
   border-radius: 50%;
 }
 
-.btn-two:hover a,
-.btn-two:hover {
+.btn_linked:hover a,
+.btn_linked:hover {
   color: #1e90ff;
   background-color: white;
   border: 1px solid#1e90ff;
 }
 
-h1::first-line {
-  color: #1e90ff;
-}
-
-
-
+/* Formatting and styling for contact form and buttons*/
 .form {
   border: 1px solid #1e90ff;
   margin-left: 1%;
   position: absolute;
-  margin-top: 50%;
-  margin-left: 50%;
+  margin-top: 45%;
+  margin-left: 70%;
   background-color: white;
   width: 600px;
   height: 600px;
@@ -426,25 +384,30 @@ h1::first-line {
 }
 
 .form:hover a,
-.form:hover{
+.form:hover {
   border: 1px solid white;
 }
 
-.input-title1 {
+.header_form {
+  font-size: 2.5em;
+  margin-left: 25%;
+}
+
+.input_title_one {
   font-size: 2.5em;
   width: 80%;
-  margin-left:  10%;
+  margin-left: 10%;
   color: #1e90ff;
 }
-.input-title2 {
+.input_title_two {
   font-size: 2.5em;
   width: 80%;
   margin-top: 5%;
-  margin-left:  10%;
+  margin-left: 10%;
   color: #1e90ff;
 }
 
-.form-element {
+.form_element_two {
   display: inline-block;
   height: 30px;
   width: 250px;
@@ -452,7 +415,7 @@ h1::first-line {
   border: 2px solid#1e90ff;
 }
 
-.form-element3 {
+.form_element_one {
   display: inline-block;
   height: 30px;
   width: 250px;
@@ -460,101 +423,115 @@ h1::first-line {
   border: 2px solid#1e90ff;
 }
 
-.form-element2 {
+.form_element_three {
   display: inline-block;
   height: 30px;
   width: 250px;
   border: 2px solid#1e90ff;
 }
 
-.form-element1 {
+.form_element_four {
   display: inline-block;
   margin-left: 13%;
   height: 30px;
   width: 250px;
   border: 2px solid#1e90ff;
-  
 }
 
-
-.header_form {
-  font-size: 2.5em;
-  margin-left: 25%;
-}
-
-
-.btn-secondary {
+.btn_three {
   width: 200px;
   height: 50px;
   font-size: 1.3em;
-  margin-top:  5%;
+  margin-top: 5%;
   margin-left: 35%;
   color: white;
   border: 1px solid #1e90ff;
-  background-color:#1e90ff;
+  background-color: #1e90ff;
 }
 
-.btn-secondary:hover {
+.btn_three:hover {
   background-color: gray;
 }
 
-
-
-
 @media (max-width: 966px) {
-
+  .all {
+    background-color: black;
+  }
+  
+  
   html,
   body {
     margin: 0;
     padding: 0;
-    width:100%;
-    overflow-x:hidden;
+    width: 100%;
+    overflow-x: hidden;
   }
   
-  
-  .paragraph {
-    position: absolute;
-    width: 450px;
-    font-size: 45px;
-    color: red;
-    margin-left: 40%;
-    margin-top: 50%;
-    font-family: "Audiowide", cursive;
-    background-color: white;
-    border-radius: 20%;
-   
-  }
-
-  .paragraph_two {
-    position: absolute;
-    width: 400px;
-    font-size: 20px;
-    color: red;
-    margin-left: 40%;
-    margin-top: -20%;
-    font-family: "Audiowide", cursive;
-    background-color: white;
-    border-radius: 20%;
-    padding-left: 7%;
-  }
-
-  
-  .para2 {
-    font-size: 45px;
-    margin-top: -222%;
+  h1::first-line {
     color: #1e90ff;
-    font-family: "Audiowide", cursive;
   }
   
-  .para3 {
+  /* Formats name and info on first page*/
+  .name_title {
+    position: absolute;
+    width: 300px;
+    font-size: 35px;
+    color: red;
+    margin-left: 20%;
+    margin-top: 40%;
+    font-family: "Audiowide", cursive;
+    background-color: white;
+    border-radius: 20%;
+  }
+  .name_title:hover a,
+  .name_title:hover {
+    color: white;
+    background-color: red;
+  }
+  .position_title {
+    position: absolute;
+    width: 250px;
+    font-size: 15px;
+    color: red;
+    margin-left: 22%;
+    margin-top: -1%;
+    font-family: "Audiowide", cursive;
+    background-color: white;
+    border-radius: 20%;
+  }
+  .position_title:hover a,
+  .position_title:hover {
+    color: white;
+    background-color: #1e90ff;
+  }
+  
+  /*Styles JS code for title of each page*/
+  .experience_body {
     position: absolute;
     font-size: 75px;
-    margin-top: -115%;
+    margin-top: -180%;
     color: #1e90ff;
     font-family: "Audiowide", cursive;
   }
   
-  .para4 {
+  .about_body {
+    font-size: 75px;
+    margin-top: -220%;
+    color: #1e90ff;
+    font-family: "Audiowide", cursive;
+  }
+  
+  
+  
+  .projects_body {
+    position: absolute;
+    font-size: 75px;
+    margin-top: -117%;
+    color: #1e90ff;
+    font-family: "Audiowide", cursive;
+  }
+  
+  .contact_body {
     position: absolute;
     font-size: 75px;
     margin-top: -50%;
@@ -562,33 +539,31 @@ h1::first-line {
     font-family: "Audiowide", cursive;
   }
   
-  .para5 {
+  .email_body {
     position: absolute;
-    font-size: 75px;
+    font-size: 40px;
     margin-top: -40%;
+    margin-left: 2%;
     color: #1e90ff;
+    background-color: white;
     font-family: "Audiowide", cursive;
   }
   
-  .para1 {
-    font-size: 45px;
-    margin-top: -170%;
-    color: #1e90ff;
-    font-family: "Audiowide", cursive;
+  .email_body:hover a,
+  .email_body:hover {
+    color: white;
+    background-color: #1e90ff;
   }
   
+  
+  /* Styling Container for entire program*/
   .container {
     position: absolute;
     margin: 20px;
     width: auto;
   }
   
-  .text_box {
-    position: absolute;
-    top: 260px;
-    left: 600px;
-    color: black;
-  }
+  /* Styling for navbar*/
   .boxes {
     overflow: hidden;
   }
@@ -596,7 +571,7 @@ h1::first-line {
   .first_image {
     background-image: url("https://i.postimg.cc/zBPJ9qFm/annie-spratt-wgivdx9d-Bd-Q-unsplash.jpg");
     position: relative;
-    height: 1200px;
+    height: 600px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -605,39 +580,22 @@ h1::first-line {
   .self_image {
     position: absolute;
     border: 5px solid #1e90ff;
-    margin-left: 60%;
-    margin-top: 145%;
+    margin-left: 130%;
+    margin-top: -60%;
     border-radius: 20%;
-    width: 200px;
-    height: 250px;
   }
   
-  
-  .intro {
-    position: absolute;
-    margin-left: 10%;
-    margin-top: 170%;
-    border-radius: 10%;
-    border: 5px solid #1e90ff;
+  .self_image:hover a,
+  .self_image:hover {
+    border: 5px solid white;
   }
   
-  
-  .second_image {
-    background-image: url("https://i.postimg.cc/nL0zY04d/ruben-ramirez-xh-KG01-FN2uk-unsplash.jpg");
-    position: relative;
-    height: 1200px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
-  .third_image {
-    background-image: url("https://i.postimg.cc/zBPJ9qFm/annie-spratt-wgivdx9d-Bd-Q-unsplash.jpg");
-    position: relative;
-    height: 1200px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  .item {
+    text-decoration: none;
+    font-family: "Monoton", cursive;
+    font-size: .7em;
+    font-weight: 900;
+    color: #1e90ff;
   }
   
   .box1,
@@ -646,31 +604,59 @@ h1::first-line {
   .box4 {
     margin-right: 280px;
     width: 10px;
-    height: 50px;
+    height: 10px;
     text-align: center;
     padding: 2rem;
-    font-size: .5em;
     text-decoration: none;
   }
-
   
-  .holder4 {
-    width: 400px;
+  .box1:hover a,
+  .box1:hover {
+    color: white;
+  }
+  .box2:hover a,
+  .box2:hover {
+    color: white;
+  }
+  
+  .box3:hover a,
+  .box3:hover {
+    color: white;
+  }
+  
+  .box4:hover a,
+  .box4:hover {
+    color: white;
+  }
+  
+  /* Introduction Styling*/
+  .holder_intro {
+    width: 300px;
     height: 150px;
-    margin-top: -90%;
+    margin-top: -265%;
     background-color: #1e90ff;
     font-family: "Audiowide", cursive;
     border-radius: 20%;
   }
   
-  .format9 {
+  .holder_intro:hover a,
+  .holder_intro:hover {
+    background-color: white;
+    color: #1e90ff;
+  }
+  
+  .format_intro {
     font-family: "Audiowide", cursive;
     padding-left: 2%;
     color: white;
-    font-size: .7em;
+    font-size: .6em;
     padding-top: 7%;
   }
   
+  .format_intro:hover a,
+  .format_intro:hover {
+    color: #1e90ff;
+  }
   
   .format10 {
     font-family: "Audiowide", cursive;
@@ -680,115 +666,58 @@ h1::first-line {
     margin-left: 18%;
   }
   
-  
-  .holder {
-    width: 400px;
-    height: 175px;
+  /*Project example holder formatting for title, body, and button*/
+  .holder_one {
+    width: 800px;
+    height: 320px;
     border: 5px solid #1e90ff;
-    margin-top: 280%;
+    margin-top: 198%;
     background-color: white;
-    margin-left: 50%;
-    font-family: "Audiowide", cursive;
-    border-radius: 15%;
-  }
-
-  
-  .holder2 {
-    width: 400px;
-    height: 175px;
-    border: 5px solid #1e90ff;
-    background-color: white;
-    margin-left: 50%;
     font-family: "Audiowide", cursive;
     border-radius: 15%;
   }
   
-  .holder3 {
-    width: 400px;
-    height: 175px;
+  .holder_one:hover a,
+  .holder_one:hover {
+    border: 1px solid white;
+  }
+  
+  .holder_two {
+    width: 800px;
+    height: 320px;
+    border: 5px solid #1e90ff;
+    background-color: white;
+    font-family: "Audiowide", cursive;
+    border-radius: 15%;
+  }
+  
+  .holder_two:hover a,
+  .holder_two:hover {
+    border: 1px solid white;
+  }
+  
+  .format_title {
+    margin-left: 30%;
+  }
+  
+  .format_body {
+    font-family: "Libre Baskerville", serif;
+    padding-left: 5%;
+  }
+  
+  .holder_three {
+    width: 800px;
+    height: 360px;
     border: 5px solid#1e90ff;
-    margin-left: 50%;
     background-color: white;
     font-family: "Audiowide", cursive;
     border-radius: 15%;
   }
   
-  .resume {
-    width: 325px;
-    height: 250px;
-    margin-top: 160%;
-    border: 3px solid#1e90ff;
-    background-color: white;
-    font-family: "Libre Baskerville", serif;
-    font-size: .5em;
-    border-radius: 10%;
+  .holder_three:hover a,
+  .holder_three:hover {
+    border: 1px solid white;
   }
-  
-  
-  .resume1 {
-    width: 325px;
-    height: 250px;
-    margin-top: -69%;
-    margin-left: 350px;
-    border: 3px solid#1e90ff;
-    background-color: white;
-    font-family: "Libre Baskerville", serif;
-    font-size: 1.5em;
-    border-radius: 10%;
-  }
-  
-  .format0 {
-    color: #1e90ff;
-    font-size: 1.2em;
-    margin-left: 3%;
-  }
-  
-  .format5 {
-    color: #1e90ff;
-    font-size: .8em;
-    margin-left: 3%;
-  }
-  
-  .format4 {
-    color: #1e90ff;
-    font-size: .8em;
-    margin-left: 3%;
-  }
-  
-  .format0-5 {
-    font-size: .9em;
-    margin-left: 3%;
-  }
-  
-  .format1 {
-    color: #1e90ff;
-    font-size: .7em;
-  }
-  .format2 {
-    color: #1e90ff;
-    font-size: 1.2em;
-    margin-left: 3%;
-  }
-  
-  .format3 {
-    color: black;
-    font-family: "Libre Baskerville", serif;
-    font-size: .6em;
-    margin-left: 3%;
-  }
-  
-  
-  .format7 {
-    margin-left: 20%;
-    font-size: .85em;
-  }
-  
-  
-  .format8 {
-    font-family: "Libre Baskerville", serif;
-    font-size: .65em;
-  }
-  
   
   .btn {
     width: 100px;
@@ -801,10 +730,78 @@ h1::first-line {
     border-radius: 50%;
   }
   
+  .btn:hover a,
+  .btn:hover {
+    color: #1e90ff;
+    background-color: white;
+    border: 1px solid#1e90ff;
+  }
   
-  .btn-two {
-    width: 50px;
-    height: 25px;
+  /* Resume Formatting for title, body, and button*/
+  .resume {
+    width: 850px;
+    height: 700px;
+    margin-top: 230%;
+    border: 3px solid#1e90ff;
+    background-color: white;
+    font-family: "Libre Baskerville", serif;
+    font-size: 1.5em;
+    border-radius: 10%;
+  }
+  
+  .resume_two {
+    width: 850px;
+    height: 700px;
+    margin-top: -80.5%;
+    margin-left: 900px;
+    border: 3px solid#1e90ff;
+    background-color: white;
+    font-family: "Libre Baskerville", serif;
+    font-size: 1.5em;
+    border-radius: 10%;
+  }
+  
+  .resume:hover a,
+  .resume:hover {
+    border: 1px solid white;
+  }
+  
+  .resume_two:hover a,
+  .resume_two:hover {
+    border: 1px solid white;
+  }
+  
+  .format_title_resume {
+    color: #1e90ff;
+    font-size: 1.2em;
+    margin-left: 3%;
+  }
+  .format_body_resume {
+    font-size: 0.9em;
+    margin-left: 3%;
+  }
+  
+  .format_title_two {
+    color: #1e90ff;
+    font-size: 0.8em;
+    margin-left: 3%;
+  }
+  
+  .format_header {
+    color: #1e90ff;
+    font-size: 0.8em;
+    margin-left: 3%;
+  }
+  .format_info {
+    color: black;
+    font-family: "Libre Baskerville", serif;
+    font-size: 0.6em;
+    margin-left: 3%;
+  }
+  
+  .btn_linked {
+    width: 150px;
+    height: 75px;
     background-color: #1e90ff;
     color: white;
     margin-left: 15px;
@@ -812,10 +809,99 @@ h1::first-line {
     font-size: 0.8em;
     border-radius: 50%;
   }
+  
+  .btn_linked:hover a,
+  .btn_linked:hover {
+    color: #1e90ff;
+    background-color: white;
+    border: 1px solid#1e90ff;
+  }
+  
+  /* Formatting and styling for contact form and buttons*/
+  .form {
+    border: 1px solid #1e90ff;
+    margin-left: 1%;
+    position: absolute;
+    margin-top: 45%;
+    margin-left: 70%;
+    background-color: white;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    font-family: "Audiowide", cursive;
+  }
+  
+  .form:hover a,
+  .form:hover {
+    border: 1px solid white;
+  }
+  
+  .header_form {
+    font-size: 2.5em;
+    margin-left: 25%;
+  }
+  
+  .input_title_one {
+    font-size: 2.5em;
+    width: 80%;
+    margin-left: 10%;
+    color: #1e90ff;
+  }
+  .input_title_two {
+    font-size: 2.5em;
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 10%;
+    color: #1e90ff;
+  }
+  
+  .form_element_two {
+    display: inline-block;
+    height: 30px;
+    width: 250px;
+    margin-left: 12%;
+    border: 2px solid#1e90ff;
+  }
+  
+  .form_element_one {
+    display: inline-block;
+    height: 30px;
+    width: 250px;
+    margin-left: 10%;
+    border: 2px solid#1e90ff;
+  }
+  
+  .form_element_three {
+    display: inline-block;
+    height: 30px;
+    width: 250px;
+    border: 2px solid#1e90ff;
+  }
+  
+  .form_element_four {
+    display: inline-block;
+    margin-left: 13%;
+    height: 30px;
+    width: 250px;
+    border: 2px solid#1e90ff;
+  }
+  
+  .btn_three {
+    width: 200px;
+    height: 50px;
+    font-size: 1.3em;
+    margin-top: 5%;
+    margin-left: 35%;
+    color: white;
+    border: 1px solid #1e90ff;
+    background-color: #1e90ff;
+  }
+  
+  .btn_three:hover {
+    background-color: gray;
+  }
+  
 }
 
-
-
 @media (min-width: 566px) {
-
 }
