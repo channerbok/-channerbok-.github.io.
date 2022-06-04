@@ -7,6 +7,7 @@ image.style.width = "100%";
 image.style.height = "110%";
 image.style.marginTop = "-50px";
 image.id = "about";
+image.className = "About";
 image.style.backgroundSize = "contain";
 
 /* Road Picture*/
@@ -78,3 +79,16 @@ email_body.style.textAlign = "center";
 email_body.className = "email_body";
 email_body.style.borderRadius = "20%";
 main.append(email_body);
+
+/* Removes images when resizing*/
+window.onresize = size;
+function size() {
+  let width = window.innerWidth;
+
+  if (width < 905) {
+    image.remove();
+    image2.remove();
+    image3.remove();
+    image4.remove();
+  }
+}
