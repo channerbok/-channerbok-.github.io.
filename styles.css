@@ -7,8 +7,6 @@
 
 .all {
   background-color: black;
-
-
 }
 
 
@@ -330,6 +328,7 @@ h1::first-line {
   color: #1e90ff;
   font-size: 1.2em;
   margin-left: 3%;
+
 }
 .format_body_resume {
   font-size: 0.9em;
@@ -457,11 +456,7 @@ h1::first-line {
 }
 
 
-@media (max-width: 1200px) {
-  .all {
-    
-  }
- 
+@media (max-width: 1300px) {
   /* Formats name and info on first page*/
   .name_title {
     position: absolute;
@@ -491,33 +486,33 @@ h1::first-line {
   /*Styles JS code for title of each page*/
   .experience_body {
     position: absolute;
-    font-size: 0px;
-    margin-top: -180%;
+    font-size: 0em;
+    margin-top: -230%;
     color: #1e90ff;
     font-family: "Audiowide", cursive;
   }
   
   .about_body {
-    font-size: 0px;
-    margin-top: -220%;
+    font-size: 0em;
+    margin-top: -290%;
     color: #1e90ff;
     font-family: "Audiowide", cursive;
-    position: fixed;
+    position: absolute;
   }
   
   
   
   .projects_body {
     position: absolute;
-    font-size: 0px;
-    margin-top: -117%;
+    font-size: 0em;
+    margin-top: -147%;
     color: #1e90ff;
     font-family: "Audiowide", cursive;
   }
   
   .contact_body {
     position: absolute;
-    font-size: 0px;
+    font-size: 0em;
     margin-top: -50%;
     color: #1e90ff;
     font-family: "Audiowide", cursive;
@@ -525,7 +520,7 @@ h1::first-line {
   
   .email_body {
     position: absolute;
-    font-size: 20px;
+    font-size: 0px;
     margin-top: -45%;
     margin-left: 10%;
     color: #1e90ff;
@@ -550,7 +545,7 @@ h1::first-line {
   .first_image {
     background-image: url("https://i.postimg.cc/zBPJ9qFm/annie-spratt-wgivdx9d-Bd-Q-unsplash.jpg");
     position: relative;
-    height: 500px;
+    height: 3000px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -559,7 +554,7 @@ h1::first-line {
   .self_image {
     position: absolute;
     border: 5px solid #1e90ff;
-    margin-left: 150%;
+    margin-left: 120%;
     margin-top: 180%;
     border-radius: 20%;
     width: 200px;
@@ -830,192 +825,3 @@ h1::first-line {
 }
 
 
-/*Smallest Screen that removes most background images and titles */
-@media (max-width: 905px) {
-  .all {
-    background-color: grey;
-  }
-  html,
-  body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    overflow-x: hidden;
-  }
-  
-  h1::first-line {
-    color: #1e90ff;
-  }
-  
-
-  .about_body {
-    font-size: 0em;
-    margin-top: -117%;
-    color: #1e90ff;
-    font-family: "Audiowide", cursive;
-
-  }
-  
-  
-  
-  .projects_body {
-    position: absolute;
-    font-size: 0em;
-    margin-top: -117%;
-    color: #1e90ff;
-    font-family: "Audiowide", cursive;
-  }
-  
- 
-  .email_body {
-    position: absolute;
-    font-size: 0px;
-    margin-top: -45%;
-    margin-left: 25%;
-    color: #1e90ff;
-    background-color: white;
-    font-family: "Audiowide", cursive;
-  }
-
-  
-  /* Styling Container for entire program*/
-  .container {
-    position: absolute;
-    margin: 20px;
-    width: auto;
-  }
-  
-  /* Styling for navbar*/
-  .boxes {
-    overflow: hidden;
-  }
-  
-  .first_image {
-    background-image: url("https://i.postimg.cc/zBPJ9qFm/annie-spratt-wgivdx9d-Bd-Q-unsplash.jpg");
-    position: relative;
-    height: 2800px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
-  .self_image {
-    position: absolute;
-    border: 5px solid #1e90ff;
-    margin-left: 150%;
-    margin-top: 220%;
-    border-radius: 20%;
-    width: 200px;
-    height: 200px;
-  }
-  
-  
-  /* Introduction Styling*/
-  .holder_intro {
-    width: 300px;
-    height: 250px;
-    margin-top: -160%;
-    background-color: #1e90ff;
-    font-family: "Audiowide", cursive;
-    border-radius: 20%;
-  }
-  
-  .format10 {
-    font-family: "Audiowide", cursive;
-    color: white;
-    font-size: 1.8em;
-    margin-top: 1%;
-    margin-left: 18%;
-  }
-  
-  /*Project example holder formatting for title, body, and button*/
-  .holder_one {
-    width: 300px;
-    height: 160px;
-    border: 5px solid #1e90ff;
-    margin-top: 188%;
-    background-color: white;
-    font-family: "Audiowide", cursive;
-    border-radius: 15%;
-  }
-  
-   
-  /* Resume Formatting for title, body, and button*/
-  .resume {
-    width: 225px;
-    height: 275px;
-    margin-top: 215%;
-    border: 3px solid#1e90ff;
-    background-color: white;
-    font-family: "Libre Baskerville", serif;
-    font-size: 1.5em;
-    border-radius: 10%;
-  }
-  
-  .resume_two {
-    width: 225px;
-    height: 275px;
-    margin-top: -133%;
-    margin-left: 300px;
-    border: 3px solid#1e90ff;
-    background-color: white;
-    font-family: "Libre Baskerville", serif;
-    font-size: 0.5em;
-    border-radius: 10%;
-  }
-  
-  
-  .format_title_resume {
-    color: #1e90ff;
-    font-size: .4em;
-    margin-left: 3%;
-  }
-  .format_body_resume {
-    font-size: 0.3em;
-    margin-left: 3%;
-  }
-  
-  .format_title_two {
-    color: #1e90ff;
-    font-size: 0.8em;
-    margin-left: 3%;
-  }
-  
-  .format_header {
-    color: #1e90ff;
-    font-size: 0.8em;
-    margin-left: 3%;
-  }
-  .format_info {
-    color: black;
-    font-family: "Libre Baskerville", serif;
-    font-size: 0.6em;
-    margin-left: 3%;
-  }
-  
-  .btn_linked {
-    width: 40px;
-    height: 45px;
-    background-color: #1e90ff;
-    margin-top: -50px;
-    color: white;
-    margin-left: 15px;
-    font-family: "Audiowide", cursive;
-    font-size: 0.2em;
-    border-radius: 50%;
-  }
-  
-  /* Formatting and styling for contact form and buttons*/
-  .form {
-    border: 1px solid #1e90ff;
-    margin-left: 1%;
-    position: absolute;
-    margin-top: 45%;
-    margin-left: 70%;
-    background-color: white;
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    font-family: "Audiowide", cursive;
-  }
-}

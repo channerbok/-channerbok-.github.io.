@@ -37,7 +37,7 @@ let image3 = document.createElement("img");
 image3.src = "pic3.jpg";
 main.append(image3);
 image3.style.width = "100%";
-image3.style.height = "110%";
+image3.style.height = "160%";
 image3.id = "Contact";
 image3.className = "Contact";
 image3.style.marginTop = "-50px";
@@ -85,7 +85,7 @@ window.onresize = size;
 function size() {
   let width = window.innerWidth;
 
-  if (width < 905) {
+  if (width < 1300) {
     image.remove();
     image2.remove();
     image3.remove();
