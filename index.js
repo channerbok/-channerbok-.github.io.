@@ -9,6 +9,7 @@ image.style.marginTop = "-50px";
 image.id = "about";
 image.className = "About";
 image.style.backgroundSize = "contain";
+image.alt ='Image of library'
 
 /* Road Picture*/
 let image2 = document.createElement("img");
@@ -20,6 +21,7 @@ image2.style.marginTop = "-50px";
 image2.id = "Experience";
 image2.className = "Experience";
 image2.style.backgroundSize = "contain";
+image2.alt ='Image of a road and forest'
 
 /*Sticky Note Picture*/
 let image4 = document.createElement("img");
@@ -31,6 +33,7 @@ image4.style.marginTop = "-50px";
 image4.id = "Projects";
 image.className = "Projects";
 image4.style.backgroundSize = "contain";
+image4.alt ='Image of person usign sticky notes'
 
 /*Keyboard Picture*/
 let image3 = document.createElement("img");
@@ -43,6 +46,7 @@ image3.className = "Contact";
 image3.style.marginTop = "-50px";
 image3.style.marginRight = "50px";
 image3.style.backgroundSize = "contain";
+image3.alt ='Image of a keyboard on a desk'
 
 /* Experience me Page Title*/
 let experience_body = document.createElement("p");
