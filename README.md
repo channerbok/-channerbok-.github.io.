@@ -14,4 +14,22 @@ Deployement:
 - The code was deployed using Github Pages and can be found at the following link -> https://channerbok.github.io/-channerbok-.github.io./
 
 Sources:
-- The fonts used within the code are from google fonts -> https://fonts.google.com/
+The fonts used within the code are from google fonts -> https://fonts.google.com/
+
+Adding images with Javascript DOM
+https://www.w3schools.com/jsref/dom_obj_image.asp
+https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector
+
+Changing fonts in CSS
+https://www.w3schools.com/css/css_font_google.asp
+
+Creating Link Button
+https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html
+https://www.freecodecamp.org/news/how-to-create-an-html-button-that-acts-like-a-link/
+
+Changing javascript images when screen size changes
+https://developer.mozilla.org/en-US/docs/Web/API/Window/resize_event
+
+Centering images in CSS
+https://www.freecodecamp.org/news/how-to-center-an-image-in-css/
+
