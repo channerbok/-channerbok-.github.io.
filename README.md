@@ -5,6 +5,7 @@ How to Run the project:
 - All files will need to be within the same folder to run.
 - This code was developed on VS code using their Liver Server feature.
 - Running the "index.html" file with Live Server will display the site.
+- The site was designed at 90% zoom on Google Chrome and appears as intended at this magnification.
 - The code was developed with the Ideal Resolution of around 2000 width.
 - It is compatabile with smaller resolution, but features will be removed.
 
